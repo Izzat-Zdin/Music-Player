@@ -37,7 +37,7 @@ export const colorsTheme = createThemeContract({
   inversePrimary: null,
 })
 
-const DEFAULT_THEME_SEED = argbFromHex('#800080 ')
+const DEFAULT_THEME_SEED = argbFromHex('#7b68ee')
 
 export const defaultDarkTheme = assignVars(
   colorsTheme,
