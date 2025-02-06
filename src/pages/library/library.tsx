@@ -106,7 +106,7 @@ const TopBar = (props: TopBar) => {
   }
 
   return (
-    <AppTopBar mainButton={false} title='Library' belowContent={props.tabs}>
+    <AppTopBar mainButton={false} title='Izzat Player' belowContent={props.tabs}>
       <Show when={installEvent()}>
         <button class={styles.tonalButton} onClick={onInstallClickHandler}>
           Install
