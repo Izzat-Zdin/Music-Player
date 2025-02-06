@@ -55,7 +55,7 @@ export const ControlsPane = (props: FullPlayerProps): JSXElement => {
         props.pinned && styles.pinned,
       )}
     >
-      <AppTopBar title='Now Playing' scrollAware={false} />
+      <AppTopBar title='Sedang Memainkan' scrollAware={false} />
       <div class={styles.content} ref={playerContentEl}>
         <Artwork class={styles.artwork} />
         <div class={styles.controls}>
