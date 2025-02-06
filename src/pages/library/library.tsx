@@ -204,7 +204,7 @@ const Library = (): JSXElement => {
           <MessageBanner
             title='Your Library is empty'
             button={{
-              title: 'Import some music',
+              title: 'Masukkan Lagu Anda',
               href: '/settings',
             }}
           />
