@@ -71,7 +71,7 @@ export default defineConfig({
       hot: false,
     }),
     ViteWebfontDownload([
-      'https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&display=swap',
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
     ]),
     serviceWorker({
       manifest: {
